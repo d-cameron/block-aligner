@@ -44,6 +44,9 @@ panic = "abort"
 debug-assertions = false
 lto = "thin"
 
+[dependencies]
+paste = "1.0"
+
 [dev-dependencies]
 bio = "^0.33"
 simulate-seqs = { git = "https://github.com/Daniel-Liu-c0deb0t/simulate-seqs" }
